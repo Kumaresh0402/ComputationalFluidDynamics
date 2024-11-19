@@ -1,11 +1,15 @@
-Flow over a sphere
+**Flow over a sphere**
 
-How to create a sphere
-Use any modelling software
-Here are the dimensions: radius = 0.1mm, location of the sphere (0.5mm, 0.5mm, 0.5mm)
-Commands to be executed
-mkdir constant/triSurface, then copy your cad model (sphere.obj (or) sphere.stl)
-blockMesh
-surfaceFeatureExtract
-snappyHexMesh -overwrite
-icoFoam
+1) How to create a sphere
+
+* Use any modelling software
+* Here are the dimensions: radius = 0.1mm, location of the sphere (0.5mm, 0.5mm, 0.5mm)
+
+
+2) Commands to be executed
+
+* mkdir constant/triSurface, then copy your cad model (sphere.obj (or) sphere.stl)
+* blockMesh
+* surfaceFeatureExtract
+* snappyHexMesh -overwrite
+* icoFoam
